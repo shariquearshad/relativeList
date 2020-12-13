@@ -4,9 +4,11 @@ import "./styles.css";
 export default function Movie1() {
   return (
     <>
-      <h3>Harry Potter</h3>
-      <h2>language:English</h2>
-      <div>emma watson</div>
+      <ol key="relativeList">
+        <li key="relativeListItem1">relative1</li>
+        <li key="relativeListItem2">relative2</li>
+        <li key="relativeListItem3">relative3</li>
+      </ol>
     </>
   );
 }
