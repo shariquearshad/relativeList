@@ -8,7 +8,6 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <>
     <App />
-    <Movie1 />
   </>,
   rootElement
 );
